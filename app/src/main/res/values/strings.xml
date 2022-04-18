@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyAlquran</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="password_konfirmasi">password konfirmasi</string>
+    <string name="sign_up">sign up</string>
+    <string name="Already_have_an_account_Sign_In"><i>Already have an account</i> <b>Sign In</b></string>
+    <string name="sign_in">sign in</string>
+    <string name="don_t_have_an_account_sign_up"><i>dont have an account</i> <b>sign up</b></string>
+</resources>
