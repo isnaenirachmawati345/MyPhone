@@ -4,10 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_detail.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/drawable/background.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/drawable/bottom_rounded.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/drawable/rounded_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/activity_detail.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/activity_list.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/activity_registrasi.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_detail.xml" value="0.16" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_home_main.xml" value="0.18" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_list.xml" value="0.22" />
-        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_login.xml" value="0.1859375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_register.xml" value="0.18" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_registrasi.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyAlquran/app/src/main/res/layout/fragment_splash.xml" value="0.1" />
       </map>
     </option>
   </component>

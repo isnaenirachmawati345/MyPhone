@@ -1,9 +1,6 @@
 package com.example.myalquran.adapter
 
-import android.content.DialogInterface
-import android.service.autofill.OnClickAction
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
@@ -12,7 +9,7 @@ import com.example.myalquran.databinding.FragmentListBinding
 import com.example.myalquran.model.phonelistt.DetailPhone
 import com.squareup.picasso.Picasso
 
-class ListPhonesAdapter (private val onItemClick: OnClickListener) : RecyclerView.Adapter<ListPhonesAdapter.ViewHolder>() {
+class PhonesAdapter (private val onItemClick: OnClickListener) : RecyclerView.Adapter<PhonesAdapter.ViewHolder>() {
     private val diffCallback = object : DiffUtil.ItemCallback<DetailPhone>() {
         override fun areItemsTheSame(
             oldItem: DetailPhone,
@@ -33,12 +30,12 @@ class ListPhonesAdapter (private val onItemClick: OnClickListener) : RecyclerVie
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): ListPhonesAdapter.ViewHolder {
+    ): PhonesAdapter.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         return ViewHolder(FragmentListBinding.inflate(inflater, parent,false))
     }
 
-    override fun onBindViewHolder(holder: ListPhonesAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: PhonesAdapter.ViewHolder, position: Int) {
         val data = differ.currentList[position]
         data.let { holder.bind(data) }
     }
