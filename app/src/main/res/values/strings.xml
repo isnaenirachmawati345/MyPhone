@@ -8,12 +8,17 @@
     <string name="password_konfirmasi">password konfirmasi</string>
     <string name="sign_up">sign up</string>
     <string name="Already_have_an_account_Sign_In"><i>Already have an account</i> <b>Sign In</b></string>
-    <string name="sign_in">sign in</string>
     <string name="don_t_have_an_account_sign_up"><i>dont have an account</i> <b>sign up</b></string>
     <string name="selamat_datang">Selamat Datang,</string>
-    <string name="username">username</string>
+    <string name="email">email</string>
     <string name="informasi">Informasi</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="back">back</string>
     <string name="information_handphone">information handphone</string>
+    <string name="name_brand">Name Brand</string>
+    <string name="signin">sign in</string>
+    <string name="remember_me">remember_me</string>
+    <string name="login">login</string>
+    <string name="don_t_have_an_account"><i>dont have an account,</i> <b>Create new one</b></string>
+    <string name="username">username</string>
 </resources>

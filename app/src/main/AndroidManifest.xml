@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAlquran">
         <activity
+            android:name=".ActivityRegistrasi"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLogin"
+            android:exported="false" />
+        <activity
             android:name=".ActivitySplash"
             android:exported="false" />
         <activity
@@ -20,12 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".ActivityList"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityRegistrasi"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityLogin"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

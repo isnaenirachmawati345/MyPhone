@@ -19,7 +19,7 @@ abstract class UserDb (): RoomDatabase(){
                    synchronized(UserDb::class){
                        INSTANCE = Room.databaseBuilder(
                            context.applicationContext,
-                           UserDb::class.java,"database.store"
+                           UserDb::class.java,"store.db"
                        ).build()
                    }
              }
@@ -27,5 +27,8 @@ abstract class UserDb (): RoomDatabase(){
 
 
     }
+        fun destroyInstance(){
+            INSTANCE = null
+        }
     }
 }

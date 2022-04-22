@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".FragmentHomeMain"
+    tools:context=".FragmentMainMenu"
     android:background="@drawable/bottom_rounded"
     >
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -84,41 +84,18 @@
             tools:ignore="MissingConstraints" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_playing"
+            android:id="@+id/rv_phone"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem="@layout/fragment_list"
+            tools:listitem="@layout/item_content"
+            app:spanCount="2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_playing"
             app:layout_constraintEnd_toEndOf="parent"
             android:orientation="horizontal"
-            android:layout_margin="16dp"/>
+            android:layout_margin="16dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>
 
-        <TextView
-            android:id="@+id/tv_listphonetwo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Daftar List Lainnya"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            app:layout_constraintTop_toBottomOf="@id/rv_playing"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="16sp"
-            android:layout_marginTop="32dp"/>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_listtwo"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem="@layout/fragment_list"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_listphonetwo"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:orientation="horizontal"
-            android:layout_margin="16dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

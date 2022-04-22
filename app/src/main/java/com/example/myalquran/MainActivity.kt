@@ -6,15 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
-import android.widget.Toast
-import com.example.myalquran.adapter.PhonesAdapter
-import com.example.myalquran.model.phonelistt.DetailPhone
-import com.example.myalquran.model.phonelistt.GetAllListPhone
-import com.example.myalquran.service.ApiClient
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

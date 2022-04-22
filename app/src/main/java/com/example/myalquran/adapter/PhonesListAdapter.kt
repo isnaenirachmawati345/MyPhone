@@ -5,16 +5,16 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myalquran.databinding.FragmentListBinding
+import com.example.myalquran.databinding.ItemContentBinding
 import com.example.myalquran.model.phonelistt.DetailPhone
 import com.squareup.picasso.Picasso
 
-class PhonesAdapter (private val onItemClick: OnClickListener) : RecyclerView.Adapter<PhonesAdapter.ViewHolder>() {
+class PhonesListAdapter (private val onItemClick: OnClickListener) : RecyclerView.Adapter<PhonesListAdapter.ViewHolder>() {
     private val diffCallback = object : DiffUtil.ItemCallback<DetailPhone>() {
         override fun areItemsTheSame(
             oldItem: DetailPhone,
             newItem: DetailPhone
-        ): Boolean = oldItem.toString() == newItem.toString()
+        ): Boolean = oldItem.phone_name == newItem.phone_name
 
         override fun areContentsTheSame(
             oldItem: DetailPhone,
@@ -30,19 +30,19 @@ class PhonesAdapter (private val onItemClick: OnClickListener) : RecyclerView.Ad
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): PhonesAdapter.ViewHolder {
+    ): PhonesListAdapter.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        return ViewHolder(FragmentListBinding.inflate(inflater, parent,false))
+        return ViewHolder(ItemContentBinding.inflate(inflater, parent,false))
     }
 
-    override fun onBindViewHolder(holder: PhonesAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: PhonesListAdapter.ViewHolder, position: Int) {
         val data = differ.currentList[position]
         data.let { holder.bind(data) }
     }
 
     override fun getItemCount(): Int = differ.currentList.size
 
-    inner class ViewHolder(private val binding: FragmentListBinding) :
+    inner class ViewHolder(private val binding: ItemContentBinding) :
         RecyclerView.ViewHolder(binding.root){
         fun bind(data: DetailPhone){
             binding.apply {
@@ -62,8 +62,6 @@ class PhonesAdapter (private val onItemClick: OnClickListener) : RecyclerView.Ad
         fun onClickItem(data: DetailPhone) {
 
         }
-
-
     }
 
 
